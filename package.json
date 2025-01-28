@@ -10,5 +10,10 @@
   },
   "devDependencies": {
     "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "charmingjs": "^0.0.4",
+    "d3": "^7.9.0",
+    "tone": "^15.0.4"
   }
 }
