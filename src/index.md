@@ -67,8 +67,11 @@ toc: false
 
 .card img {
   position: absolute;
+  max-width: 100%;
+  max-height: 100%;
   top: 50%;
-  transform: translateY(-50%)
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 </style>
