@@ -17,6 +17,8 @@ export default {
   // The path to the source root.
   root: "src",
 
+  preserveExtension: true,
+
   // Some additional configuration options and their defaults:
   theme: "dark", // try "light", "dark", "slate", etc.
   // header: "", // what to show in the header (HTML)
