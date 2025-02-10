@@ -4,7 +4,7 @@ toc: false
 
 <div class="hero">
   <h1>The Code of Music</h1>
-   <h2>Some of my pieces about music, created by <a href="https://charmingjs.org/" target="__blank">Charming.js</a></h2>!
+   <h2>Some of my pieces about music, created by <a href="https://charmingjs.org/" target="__blank">Charming.js</a>!</h2>
 </div>
 
 <div class="grid grid-cols-2" style="grid-auto-rows: 504px">
