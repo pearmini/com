@@ -7,8 +7,9 @@ export default {
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
   pages: [
-    {name: "Streamgraph", path: "/streamgraph"},
-    {name: "Eye", path: "/eye"},
+    {name: "#1 Streamgraph", path: "/streamgraph"},
+    {name: "#2 Eye", path: "/eye"},
+    {name: "#3 Gitub Drum", path: "/github-drum"},
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
@@ -17,7 +18,7 @@ export default {
   // The path to the source root.
   root: "src",
 
-  preserveExtension: true,
+  presexrveExtension: true,
 
   // Some additional configuration options and their defaults:
   theme: "dark", // try "light", "dark", "slate", etc.
