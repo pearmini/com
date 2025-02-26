@@ -44,7 +44,7 @@ function scaleColor(data) {
       const mainColor = main(d);
       const {domain} = domains.get(d);
       const color = d3.color(mainColor);
-      const range = [color.brighter(2), color, color.darker(2), color.darker(2)].map((d) => d + "");
+      const range = [color.brighter(2), color, color.darker(2)].map((d) => d + "");
       return [d, d3.scaleQuantile(domain, range)];
     })
   );
