@@ -9,7 +9,7 @@ export default {
   pages: [
     {name: "#1 Streamgraph", path: "/streamgraph"},
     {name: "#2 Eye", path: "/eye"},
-    {name: "#4 Gitub Melody Sequencer", path: "/github-melody-sequencer"},
+    {name: "#4 Gitub Melody Sequencer", path: "/melody"},
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
