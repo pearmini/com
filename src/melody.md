@@ -111,7 +111,7 @@ if (!isPlaying) {
 
 ```js
 function getUTCMonthWeek(year, weekNum) {
-  const firstWeekStart = d3.utcWeek.offset(d3.utcYear(new Date(Date.UTC(year, 0, 1))), weekNum - 1);
+  const firstWeekStart = d3.utcWeek.offset(d3.utcYear(new Date(Date.UTC(year, 0, 1))), weekNum);
   const monthStart = d3.utcMonth(firstWeekStart);
   const monthWeek = Math.floor((firstWeekStart - monthStart) / (7 * 24 * 60 * 60 * 1000));
   return [firstWeekStart.getUTCMonth(), monthWeek];
