@@ -9,7 +9,7 @@ export default {
   pages: [
     {name: "#1 Streamgraph", path: "/streamgraph"},
     {name: "#2 Eye", path: "/eye"},
-    {name: "#3 Gitub Drum", path: "/github-drum"},
+    {name: "#4 Gitub Melody Sequencer", path: "/github-melody-sequencer"},
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
@@ -18,7 +18,7 @@ export default {
   // The path to the source root.
   root: "src",
 
-  presexrveExtension: true,
+  preserveExtension: true,
 
   // Some additional configuration options and their defaults:
   theme: "dark", // try "light", "dark", "slate", etc.
