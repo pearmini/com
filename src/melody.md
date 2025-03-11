@@ -110,15 +110,34 @@ if (!isPlaying) {
 ```
 
 ```js
+function getUTCMonthWeek(year, weekNum) {
+  const firstWeekStart = d3.utcWeek.offset(d3.utcYear(new Date(Date.UTC(year, 0, 1))), weekNum - 1);
+  const monthStart = d3.utcMonth(firstWeekStart);
+  const monthWeek = Math.floor((firstWeekStart - monthStart) / (7 * 24 * 60 * 60 * 1000));
+  return [firstWeekStart.getUTCMonth(), monthWeek];
+}
+```
+
+```js
 const cellChart = Plot.plot({
   width: 1200,
   height: 670,
   marginBottom: 5,
-  marginTop: 5,
+  marginTop: 15,
   fx: {axis: false},
   fy: {tickFormat: (d) => d + "", reverse: true},
-  x: {axis: false},
+  x: {
+    axis: "top",
+    tickSize: 0,
+    tickFormat: (d) => {
+      d3.utcWeek.offset();
+      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      const [monthIndex, monthWeek] = getUTCMonthWeek(2024, +d);
+      return monthWeek === 0 ? months[monthIndex] : "";
+    },
+  },
   y: {
+    tickSize: 0,
     tickFormat: (d) => {
       const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
       return days[+d];
