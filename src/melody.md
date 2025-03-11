@@ -138,6 +138,7 @@ const cellChart = Plot.plot({
           x: false,
           y: false,
           fy: false,
+          fill: false,
         },
       },
       channels: {

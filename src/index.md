@@ -4,15 +4,18 @@ toc: false
 
 <div class="hero">
   <h1>The Code of Music</h1>
-   <h2>Some of my pieces about music, created by <a href="https://charmingjs.org/" target="__blank">Charming.js</a>!</h2>
+  <h2>Some of my pieces about music, created by <a href="https://charmingjs.org/" target="__blank">Charming.js</a> and <a href="https://d3js.org/" target="__blank">D3.js</a>!</h2>
 </div>
 
-<div class="grid grid-cols-2" style="grid-auto-rows: 504px">
+<div class="grid grid-cols-3" style="grid-auto-rows: 304px">
   <div class="card">
     <a class="link" href="/streamgraph"><img src="/img/streamgraph.png" width="100%"/></a>
   </div>
   <div class="card">
     <a class="link" href="/eye"><img src="/img/eye.png" /></a>
+  </div>
+  <div class="card">
+    <a class="link" href="/melody"><img src="/img/melody.png" /></a>
   </div>
 </div>
 
