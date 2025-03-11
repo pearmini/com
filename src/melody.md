@@ -121,7 +121,7 @@ function getUTCMonthWeek(year, weekNum) {
 ```js
 const cellChart = Plot.plot({
   width: 1200,
-  height: 670,
+  height: 680,
   marginBottom: 5,
   marginTop: 15,
   fx: {axis: false},
@@ -220,9 +220,5 @@ function postprocess() {
 ```
 
 ```js
-display(
-  html`<div style="display:flex;flex-direction:column;align-items:end">
-    ${cellChart}${Plot.legend({color: {type: "linear", domain: domainCount}})}
-  </div>`
-);
+display(html`<div style="padding-top:1em">${cellChart}</div>`);
 ```
