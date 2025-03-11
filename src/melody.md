@@ -123,7 +123,7 @@ const cellChart = Plot.plot({
   width: 1200,
   height: 680,
   marginBottom: 5,
-  marginTop: 15,
+  marginTop: 20,
   fx: {axis: false},
   fy: {tickFormat: (d) => d + "", reverse: true},
   x: {
