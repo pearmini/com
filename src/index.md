@@ -3,8 +3,8 @@ toc: false
 ---
 
 <div class="hero">
-  <h1>The Code of Music</h1>
-  <h2>Some of my pieces about music, created by <a href="https://charmingjs.org/" target="__blank">Charming.js</a> and <a href="https://d3js.org/" target="__blank">D3.js</a>!</h2>
+  <h1>Music and Charts</h1>
+  <h2>Bring music to Charts, created by <a href="https://charmingjs.org/" target="__blank">Charming.js</a> and <a href="https://d3js.org/" target="__blank">D3.js</a>!</h2>
 </div>
 
 <div class="grid grid-cols-3" style="grid-auto-rows: 304px">
