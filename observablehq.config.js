@@ -1,15 +1,18 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "The Code of Music",
+  title: "Music and Charts",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
   pages: [
-    {name: "#1 Streamgraph", path: "/streamgraph"},
-    {name: "#2 Eye", path: "/eye"},
-    {name: "#4 Gitub Melody Sequencer", path: "/melody"},
+    {name: "Area: AV Instrument", path: "/area"},
+    {name: "Bar: Composition Eye", path: "/bar"},
+    {name: "Dot: Dodge Drum", path: "/dot"},
+    {name: "Grid: Github Melody Sequencer", path: "/grid"},
+    {name: "Contour: Timbre", path: "/contour"},
+    {name: "Tree: Chord", path: "/tree"},
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
