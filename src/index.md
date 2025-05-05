@@ -9,13 +9,13 @@ toc: false
 
 <div class="grid grid-cols-3" style="grid-auto-rows: 304px">
   <div class="card">
-    <a class="link" href="/streamgraph"><img src="/img/streamgraph.png" width="100%"/></a>
+    <a class="link" href="/area"><img src="/img/streamgraph.png" width="100%"/></a>
   </div>
   <div class="card">
-    <a class="link" href="/eye"><img src="/img/eye.png" /></a>
+    <a class="link" href="/bar"><img src="/img/eye.png" /></a>
   </div>
   <div class="card">
-    <a class="link" href="/melody"><img src="/img/melody.png" /></a>
+    <a class="link" href="/grid"><img src="/img/melody.png" /></a>
   </div>
 </div>
 
