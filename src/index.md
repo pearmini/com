@@ -15,6 +15,9 @@ toc: false
     <a class="link" href="/bar"><img src="/img/eye.png" /></a>
   </div>
   <div class="card">
+    <a class="link" href="/dot"><img src="/img/dot.png" /></a>
+  </div>
+  <div class="card">
     <a class="link" href="/grid"><img src="/img/melody.png" /></a>
   </div>
 </div>
