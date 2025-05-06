@@ -20,6 +20,9 @@ toc: false
   <div class="card">
     <a class="link" href="/grid"><img src="/img/melody.png" /></a>
   </div>
+  <div class="card">
+    <a class="link" href="/contour"><img src="/img/contour.png" style="width:100%;height:100%;object-fit:cover"/></a>
+  </div>
 </div>
 
 <style>
